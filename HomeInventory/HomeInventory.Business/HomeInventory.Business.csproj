@@ -5,8 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.2" />
-    <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="8.0.12" />
+    <ProjectReference Include="..\HomeInventory.Data\HomeInventory.Data.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,9 +1,10 @@
 ﻿using HomeInventory.Data.Entities;
 using Microsoft.EntityFrameworkCore;
 
+
 namespace HomeInventory.Data
 {
-    public class HiContext : DbContext
+    public class HiDbContext : DbContext
     {
         public DbSet<Home> Home { get; set; }
 
